@@ -1,0 +1,35 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #06071B;
+}
+
+ .list{
+    list-style: none;
+ }
+
+ .hero-title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+ }
+
+ .secondary-title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+ }
+
+ .last-text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+ }
