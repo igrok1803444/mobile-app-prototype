@@ -1,35 +1,66 @@
-body{
-    font-family: 'Inter', sans-serif;
-    background-color: #06071B;
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #06071b;
+}
+:root {
+  --white: #ffffff;
+  --font-family: 'Inter', sans-serif;
+  --background-color: #06071b;
 }
 
- .list{
-    list-style: none;
- }
+.list {
+  list-style: none;
+}
 
- .hero-title{
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-    color: #FFFFFF;
- }
+.hero-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--white);
+}
 
- .secondary-title{
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
- }
+.secondary-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
 
- .last-text{
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
- }
+.last-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  color: var(--white);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.download-btn {
+  background: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
+  border-radius: 5px;
+  width: 200px;
+  height: 42px;
+  left: 245px;
+  top: 640px;
+  color: var(--white);
+  font-family: var(--font-family);
+}
+.btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.download-btn:hover,
+.download-btn:focus {
+  background: #06071b;
+  border-radius: 5px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
