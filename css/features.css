@@ -1,0 +1,41 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --fon-color: #06071b;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+.list {
+  list-style: none;
+}
+/**
+  |============================
+  | section Key Features
+  |============================
+*/
+.features {
+  color: var(--text-color);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.21;
+  text-align: center;
+}
+.text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+.ubtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.desc {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.21;
+}
