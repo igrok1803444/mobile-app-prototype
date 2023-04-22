@@ -12,12 +12,19 @@ body {
 }
 
 .container {
-  width: 1280px;
+  width: 1248px;
   padding-left: 16px;
   padding-right: 16px;
+  margin: auto;
+}
+.hero-container {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-.adasad {
+.hero-section {
   background-color: var(--background-color);
 }
 
@@ -28,8 +35,8 @@ body {
   font-size: 40px;
   line-height: 48px;
   color: var(--white);
-  margin-top: 0;
   margin-bottom: 12px;
+  margin-top: 0;
 }
 
 .secondary-title {
@@ -41,10 +48,16 @@ body {
   line-height: 24px;
   margin-top: 0;
 }
-.text {
+.all-items {
   margin-top: 0;
-  padding: 0;
-  margin-bottom: 62px;
+  margin-right: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.text {
+  margin: 0;
 }
 .last-text {
   font-family: 'Inter', sans-serif;
@@ -53,6 +66,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+  margin-bottom: 14px;
 }
 
 .download-btn {
@@ -61,8 +75,7 @@ body {
   font-family: var(--font-family);
   border-radius: 5px;
   padding: 12px 60px 12px 60px;
-  align-items: center;
-  display: flex;
+  margin-top: 62px;
 }
 .btn {
   font-style: normal;
@@ -85,10 +98,7 @@ img {
 .iphone {
   padding: 0 36px 28px 8px;
   display: flex;
-  margin-left: 800px;
 }
 
 .camera {
-  justify-content: center;
-  display: flex;
 }
