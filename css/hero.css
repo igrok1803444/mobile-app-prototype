@@ -1,6 +1,5 @@
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #06071b;
 }
 :root {
   --white: #ffffff;
@@ -12,6 +11,23 @@ body {
   list-style: none;
 }
 
+.container {
+  width: 1280px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+.hero-container {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.hero-section {
+  background-color: var(--background-color);
+}
+
 .hero-title {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -19,6 +35,8 @@ body {
   font-size: 40px;
   line-height: 48px;
   color: var(--white);
+  margin-bottom: 12px;
+  margin-top: 0;
 }
 
 .secondary-title {
@@ -28,8 +46,16 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  margin-top: 0;
+}
+.all-items {
 }
 
+.text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 62px;
+}
 .last-text {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -38,16 +64,16 @@ body {
   font-size: 14px;
   line-height: 17px;
 }
+.last-text:not(:last-child) {
+  margin-bottom: 14px;
+}
 
 .download-btn {
   background: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
-  border-radius: 5px;
-  width: 200px;
-  height: 42px;
-  left: 245px;
-  top: 640px;
   color: var(--white);
   font-family: var(--font-family);
+  border-radius: 5px;
+  padding: 12px 60px 12px 60px;
 }
 .btn {
   font-style: normal;
@@ -55,7 +81,9 @@ body {
   font-size: 16px;
   line-height: 19px;
 }
-
+img {
+  display: block;
+}
 .download-btn:hover,
 .download-btn:focus {
   background: #06071b;
@@ -63,4 +91,12 @@ body {
   border-radius: 5px;
   box-sizing: border-box;
   cursor: pointer;
+}
+
+.iphone {
+  padding: 0 36px 28px 8px;
+  display: flex;
+}
+
+.camera {
 }
