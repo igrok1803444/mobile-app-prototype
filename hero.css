@@ -12,10 +12,10 @@ body {
 }
 
 .container {
-  width: 1248px;
+  width: 1280px;
   padding-left: 16px;
   padding-right: 16px;
-  margin: auto;
+  margin: 0 auto;
 }
 .hero-container {
   display: flex;
@@ -49,15 +49,12 @@ body {
   margin-top: 0;
 }
 .all-items {
-  margin-top: 0;
-  margin-right: 16px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
 }
 
 .text {
   margin: 0;
+  padding: 0;
+  margin-bottom: 62px;
 }
 .last-text {
   font-family: 'Inter', sans-serif;
@@ -66,6 +63,8 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+}
+.last-text:not(:last-child) {
   margin-bottom: 14px;
 }
 
@@ -75,7 +74,6 @@ body {
   font-family: var(--font-family);
   border-radius: 5px;
   padding: 12px 60px 12px 60px;
-  margin-top: 62px;
 }
 .btn {
   font-style: normal;
