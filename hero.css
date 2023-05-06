@@ -18,8 +18,7 @@ body {
   margin: 0 auto;
 }
 
-.all-items {
-}
+
 
 .hero-section {
   background-color: var(--background-color);
@@ -80,8 +79,7 @@ body {
   transition: border-color 0.3s ease-in-out;
 }
 
-.modal {
-}
+
 
 img {
   display: block;
@@ -103,5 +101,3 @@ img {
   display: flex;
 }
 
-.camera {
-}
